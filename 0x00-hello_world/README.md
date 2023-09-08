@@ -1,1 +1,1 @@
-#C programming - My first C program
+#FIRST DAY C PROGRAMMING
