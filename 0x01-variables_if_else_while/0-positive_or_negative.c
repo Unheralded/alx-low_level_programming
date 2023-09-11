@@ -3,7 +3,10 @@
 #include <stdio.h>
 
 /*
- * main - display whether number is positive | zero | negative
+ * main - display if number is negative | positive | zero
+ * @n: Random number
+ *
+ * Description: display if n is negative | positive | zero
  * Return: 0 and exit the program
  */
 int main(void)
