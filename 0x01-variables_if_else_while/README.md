@@ -11,3 +11,4 @@
 9. print all single digit base 10 numbers separated by ',' & ' '
 100. print all possible combos of single digit numbers separate by ' ' and ','
 101. print all possible combos of 3 digit numbers in assending order separate by ',' && ' '
+102. print all possible combs of 2 digit numbers range 0-99 all numbs in 2 digits
