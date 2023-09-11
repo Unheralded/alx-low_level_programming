@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- *main - display if n is greater than 5 | zero | less than 6
+/**
+ *main - display if n is greater than 5  zero  less than 6
  *Description: chdeck if n is greater than 5, is 0 ore less than 6
  *Return: 0 always success
  */

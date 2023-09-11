@@ -2,12 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - display if number is negative | positive | zero
- * @n: Random number
- *
- * Description: display if n is negative | positive | zero
- * Return: 0 and exit the program
+/**
+ *main - display if number is negative | positive | zero
+ *Description: display if n is negative | positive | zero
+ *Return: 0 and exit the program
  */
 int main(void)
 {
