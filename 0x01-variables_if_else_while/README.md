@@ -9,3 +9,5 @@
 7. print alphabet in reverse
 8. print all base 16 numbers
 9. print all single digit base 10 numbers separated by ',' & ' '
+100. print all possible combos of single digit numbers separate by ' ' and ','
+101. print all possible combos of 3 digit numbers in assending order separate by ',' && ' '
