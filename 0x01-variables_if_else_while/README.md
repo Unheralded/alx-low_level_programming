@@ -8,3 +8,4 @@
 6. Print numberz using putchar()
 7. print alphabet in reverse
 8. print all base 16 numbers
+9. print all single digit base 10 numbers separated by ',' & ' '
