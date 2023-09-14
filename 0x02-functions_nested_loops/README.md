@@ -1,0 +1,2 @@
+#FUNCTIONS NESTED LOOPS
+1. Print _putchar
