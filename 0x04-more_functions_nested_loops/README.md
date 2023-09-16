@@ -6,3 +6,4 @@
 4. print numbers 0-9 except 2 & 4
 5. print product of numbers btn 0-14 * 10 10 times
 6. prints '_' n times
+7. print diagonal
