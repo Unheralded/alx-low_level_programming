@@ -7,3 +7,4 @@
 5. print product of numbers btn 0-14 * 10 10 times
 6. prints '_' n times
 7. print diagonal
+8. Print Squares
