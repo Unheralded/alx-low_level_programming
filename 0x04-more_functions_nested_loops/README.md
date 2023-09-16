@@ -3,3 +3,4 @@
 1. check for digit
 2. product of a & b
 3. print numbers 0 - 9
+4. print numbers 0-9 except 2 & 4
