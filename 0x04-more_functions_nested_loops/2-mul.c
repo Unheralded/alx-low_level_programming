@@ -2,7 +2,7 @@
 
 /**
  * mul - product of int a & int b
- * 
+ *
  * @a: int to mul
  * @b: int to mul
  * Return: 0 Success.
