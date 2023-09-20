@@ -2,23 +2,20 @@
 
 /**
  * print_rev - print string in reverse
- *
  * @s: string
  * Return: void
  */
 void print_rev(char *s)
 {
-	int length, i;
+	int a, b;
 
-	length = 0;
-	while (s[length] != 0)
+	for (a = 0; s[a] != 0; a++)
 	{
-		length++;
 	}
-	for (length = length - 1; length >= 0; length++)
+	for (a = a - 1; a >= 0; a--)
 	{
-		i = s[length];
-		_putchar(i);
+		b = s[a];
+		_putchar(b);
 	}
 	_putchar('\n');
 }
