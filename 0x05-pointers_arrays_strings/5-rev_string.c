@@ -24,6 +24,6 @@ void rev_string(char *s)
 		s[last] = c;
 
 		first++;
-		last--;	
+		last--;
 	}
 }
