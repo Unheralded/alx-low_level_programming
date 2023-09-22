@@ -6,6 +6,7 @@
  * @dest: destination
  * @src: source
  * @n: limit
+ * Return: pointer to dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
