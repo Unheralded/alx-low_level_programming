@@ -7,15 +7,15 @@
  */
 int main(void)
 {
-	int fib;
-	int a = 1;
-	int b = 2;
+	unsigned long long fib;
+	unsigned long long a = 1;
+	unsigned long long b = 2;
 
-	printf("%d, %d", a, b);
-	for (a = 2; a < 50; a++)
+	printf("%llu, %llu", a, b);
+	for (int i = 2; i < 50; i++)
 	{
 		fib = a + b;
-		printf(", %d", fib);
+		printf(", %llu", fib);
 		a = b;
 		b = fib;
 	}
