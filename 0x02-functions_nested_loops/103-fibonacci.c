@@ -7,20 +7,20 @@
  */
 int main(void)
 {
-	int i;
-	long int fib;
+	long int fib = 0;
 	long int a = 1;
 	long int b = 2;
 	long int sum;
 
-	for (i = 1; i < 35; i++)
+	while (fib < 4000000)
 	{
 		fib = a + b;
 		a = b;
 		b = fib;
-		if ((fib < 4000000) && fib % 2 == 0)
+		fib++;
+		if (fib % 2 == 0)
 		{
-			sum += fib;
+			sum = +fib;
 		}
 	}
 	printf("%ld", sum);
