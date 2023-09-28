@@ -4,3 +4,4 @@
 2. Return the length of a string
 3. Factorial
 4. Base x to power y
+5. Find sqrt of n if perfect square
