@@ -10,11 +10,11 @@ int is_prime_number(int n)
 {
 	if (n <= 1)
 	{
-		return;
+		return (0);
 	}
 	else
 	{
-		return (find_prime(n, n - 1));
+		return (find_prime(n, 2));
 	}
 }
 /**
@@ -27,16 +27,16 @@ int is_prime_number(int n)
  */
 int find_prime(int n, int i)
 {
-	if (i <= 1)
+	if (i * i > n)
 	{
-		return;
+		return (1);
 	}
-	else if (n % 1 == 0)
+	else if (n % i == 0)
 	{
-		return;
+		return (0);
 	}
 	else
 	{
-		return (find_prime(n, i - 1));
+		return (find_prime(n, i + 1));
 	}
 }
