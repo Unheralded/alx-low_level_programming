@@ -3,9 +3,10 @@
 /**
  * main - prints program source file name
  *
- * Return: void
+ * Return: 0 Always
  */
-void main(void)
+int main(void)
 {
 	printf("%s\n", --FILE--);
+	return (0);
 }
