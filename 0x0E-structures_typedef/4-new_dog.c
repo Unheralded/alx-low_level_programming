@@ -25,13 +25,16 @@ dog_t *new_dog(char *name, float age, char *owner)
 	for (b = 0; *(owner + b) != '\0'; b++)
 		;
 	i = malloc(a + 1);
+	if (i == NULL)
+	{
+		free(ptr);
+		return (NULL);
+	}
 	j = malloc(b + 1);
-	if (i == NULL || j == NULL)
+	if (j == NULL)
 	{
 		free(ptr);
 		free(i);
-		free(j);
-
 		return (NULL);
 	}
 	for (c = 0; c <= a; c++)
