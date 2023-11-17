@@ -22,9 +22,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 	ptr = malloc(sizeof(struct dog));
 	if (ptr == NULL)
 		return (NULL);
-	for (a = 0; *(a + name) != '\0'; a++)
+	for (a = 0; *(name + a) != '\0'; a++)
 		;
-	for (b = 0; *(b + owner) != '\0'; b++)
+	for (b = 0; *(owner + b) != '\0'; b++)
 		;
 	i = malloc(a + 1);
 	j = malloc(b + 1);
